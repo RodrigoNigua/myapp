@@ -3,15 +3,18 @@
 </head>
 
 <body>
+<div class="container">
   <h1>Welcome to Meteor!</h1>
 
-  {{> SUMA}}
+  {{> Formulario}}
+  </div>
 </body>
 
 <template name="SUMA">
-  <button ID="SUMA">SUMA</button>
-  <button ID="RESTA">RESTA</button>
+  <button id="SUMA" class="btn blue">SUMA</button>
+  <button id="RESTA" class="btn yellow">RESTA</button>
   <p>You've pressed the button {{counter}} times.</p>
 </template>
+
 
 
